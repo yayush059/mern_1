@@ -1,1 +1,2 @@
-# mern_1
+# MERN-Tasks
+Internship Tasks

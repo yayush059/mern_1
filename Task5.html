@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-5</title>
+    <style>
+      table,
+      td,
+      th,
+      tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1 {
+        text-align: center;
+        color: blue;
+      }
+      input {
+        text-align: center;
+      }
+      .form-control {
+        width: 98%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <table>
+        <tr>
+          <th><label for="firstname">First Name</label></th>
+          <td>
+            <input
+              type="text"
+              id="firstname"
+              class="form-control"
+              placeholder="Enter your first name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="lastname">Last Name</label></th>
+          <td>
+            <input
+              type="text"
+              id="lastname"
+              class="form-control"
+              placeholder="Enter your last name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="email">Email</label></th>
+          <td>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="password">Password</label></th>
+          <td>
+            <input
+              type="password"
+              id="password"
+              class="form-control"
+              placeholder="Enter your password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="re-password">Re-enter Password</label></th>
+          <td>
+            <input
+              type="password"
+              id="re-password"
+              placeholder="Re-enter your password"
+              class="form-control"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="gender">Gender</label></th>
+          <td>
+            <input type="radio" id="male" name="gender" />Male<br />
+            <input type="radio" id="female" name="gender" />Female<br />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="age">Age</label></th>
+          <td>
+            <input
+              type="number"
+              id="age"
+              class="form-control"
+              placeholder="Enter your age"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="phone number">Phone Number</label></th>
+          <td>
+            <input
+              type="tel"
+              id="phone number"
+              class="form-control"
+              placeholder="Enter your phone number"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="address">Address</label></th>
+          <td>
+            <textarea
+              name="address"
+              id="address"
+              cols="40"
+              rows="8"
+              placeholder="Enter your address"
+              class="form-control"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="state">State</label></th>
+          <td>
+            <input
+              type="text"
+              id="state"
+              class="form-control"
+              placeholder="Enter your state"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="country">Country</label></th>
+          <td>
+            <select name="country" id="country" placeholder="c">
+              <option value="india">India</option>
+              <option value="sri lanka">Sri Lanka</option>
+              <option value="afghanistan">Afghanistan</option>
+              <option value="tibet">Tibet</option>
+              <option value="china">China</option>
+              <option value="pakistan">Pakistan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="language">Language known</label></th>
+          <td>
+            <input type="checkbox" id="english" />English
+            <input type="checkbox" id="kannada" />Kannada
+            <input type="checkbox" id="hindi" />Hindi
+            <input type="checkbox" id="telugu" />Telugu
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" id="declare" />Here by I declare all the
+            given details are true
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="login" style="margin-left: 290px"
+              >Login to
+              <a href="https://ethnus.com/" target="_blank">Ethnus</a>
+              website</label
+            >
+          </td>
+        </tr>
+      </table>
+      <div style="text-align: center; margin-top: 10px">
+        <input type="submit" value="Register" class="submit" />
+      </div>
+    </form>
+  </body>
+</html>

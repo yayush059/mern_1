@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(226, 21, 103);
+            color: white;
+        }
+        button{
+            display: flex;
+            margin-top: 1rem;
+            margin-left: 8rem;
+            border-radius: 20px;
+            background-color: white;
+            padding: 10px;
+            width: 25%;
+            text-align: center;
+            margin: auto;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: cadetblue;
+        }
+        label, input, select{
+            display: inline-block;
+            margin-top: 8px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color: blue; text-align: center;">Registration Form</h3>
+    <div style="height: 355px;margin: auto; background-color: rgb(116, 1, 68); width:  30%; padding-left: 20px;">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td colspan="4"><input placeholder="Your Name" style="width: 98%;" type="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td colspan="4"><input placeholder="Your Email" style="width: 98%;" type="email"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td colspan="4"><input placeholder="Enter your Password" style="width: 98%;" type="password"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio"> Male</td>
+            <td><input type="radio"> Female</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td colspan="4"><select>
+                <option value="Select Your Country" selected>Select Your Country</option>
+                <option value="India">India</option>
+                <option value="UK">United Kingdom</option>
+                <option value="USA">United States of America</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Afghanistan">Afghanistan</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Zip Code</td>
+            <td colspan="4"><input placeholder="Enter Zip Code" style="width: 98%;" type="text"></td>
+        </tr>
+        <tr style="height: 80px;">
+            <td>About You</td>
+            <td colspan="4"><input placeholder="Enter Something About you" style="width: 98%; height: 100px;" type="text"></td>
+        </tr>
+    </table>
+    <button type="submit">&nbsp;&nbsp;Register</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-2</title>
+    <style>
+      #vertical {
+        list-style-type: none;
+        margin: 10px;
+        padding: 0px;
+        background-color: lightblue;
+        width: 200px;
+        border: 1.5px solid black;
+      }
+      #horizontal {
+        list-style-type: none;
+        margin: 10px;
+        padding: 0px;
+        background-color: gainsboro;
+        width: 300px;
+        border: 1.5px solid black;
+        display: flex;
+      }
+
+      a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+      }
+      a:hover {
+        background-color: orange;
+        color: white;
+      }
+      .h:hover {
+        background-color: grey;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Vertical Navigation Bar</h3>
+    <ul id="vertical">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">Bootstrap</a></li>
+    </ul>
+    <h3>Horizontal Navigation Bar</h3>
+    <ul id="horizontal">
+      <li><a href="#" class="h">Home</a></li>
+      <li><a href="#" class="h">Java</a></li>
+      <li><a href="#" class="h">CSS</a></li>
+      <li><a href="#" class="h">HTML</a></li>
+      <li><a href="#" class="h">Bootstrap</a></li>
+    </ul>
+  </body>
+</html>
